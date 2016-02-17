@@ -9,9 +9,16 @@
     tools:context="laptrinhvui.com.vntaxi.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <!--<ListView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:id="@+id/lsv_Provinces"-->
+        <!--android:layout_alignParentTop="false"-->
+        <!--android:layout_alignWithParentIfMissing="false" />-->
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvExp_Provinces">
+    </ExpandableListView>
 
 </RelativeLayout>
